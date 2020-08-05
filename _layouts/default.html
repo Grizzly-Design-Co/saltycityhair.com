@@ -15,6 +15,7 @@
     <link href="assets/css/themify-icons.css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/venobox.css">
     <link href="assets/css/style.css" rel="stylesheet"> </head>
 
 <body>
@@ -22,11 +23,11 @@
     <nav class="ann-site-menu" id="ann-navbar-spy">
         <div class="ann-site-menu-inner" id="ann-navbar">
             <ul class="list-unstyled">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="portfolio.html">Our Work</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/our-work">Our Work</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -36,7 +37,7 @@
             <div class="row align-items-center">
                 <!-- Logo -->
                 <div class="col-6 col-md-4 ann-site-logo-wrap">
-                    <a href="index.html" class="ann-site-logo"><img src="assets/images/logo-black.png" alt="ANN"></a>
+                    <a href="/" class="ann-site-logo"><img src="assets/images/logo-black.png" alt="ANN"></a>
                 </div>
                 <!-- Menu Burger -->
                 <div class="col-6 col-md-8 text-right ann-menu-burger-wrap"> <a href="#" class="ann-site-nav-toggle ann-js-ann-site-nav-toggle"><i></i></a> </div>
@@ -82,10 +83,18 @@
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/owl.carousel.min.js"></script>
         <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/js/venobox.min.js"></script>
         <script src="assets/js/jquery.isotope.v3.0.2.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe2q1gFSd75jKUnTDPq0nZWaMlEu6vL30"></script>
     <script src="assets/js/googlemap.js"></script>
         <script src="assets/js/scripts.js"></script>
+        <script>
+            /* Venobox img-popup */
+            $('.img-popup').venobox({
+                numeratio: true
+                , infinigall: true
+            });
+        </script>
     </body>
     
     </html>
