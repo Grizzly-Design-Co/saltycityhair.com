@@ -603,7 +603,7 @@ button {
 }
 
 .ann-profile-info h2 {
-    font-size: 60px;
+    font-size: 72px;
     color: #FFF;
     display: block;
     line-height: 1.5em;
@@ -611,6 +611,7 @@ button {
     margin-bottom: 20px;
     position: relative;
     letter-spacing: 4px;
+    text-shadow: #333 0px 0px 20px;
 }
 
 .ann-profile-info h2 span {
@@ -620,10 +621,11 @@ button {
     text-transform: uppercase;
     color: #fff;
     line-height: 1.5em;
+    
 }
 
 .ann-profile-inner {
-    padding: 20px;
+    padding: 80px;
     position: relative;
     z-index: 1;
 }
@@ -785,7 +787,10 @@ button {
 /* *** 07. Services style *** */
 
 .ann-homepage-services-section {
-    padding: 80px 0;
+    padding: 180px 0;
+    background-image: url(../images/banner.png);
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 .ann-services-section {

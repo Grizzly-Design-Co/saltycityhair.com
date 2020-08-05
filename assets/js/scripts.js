@@ -93,7 +93,15 @@
         console.log('show');
     });
     /* *** Main Slider *** */
-  
+    $('.ann-main-slider').owlCarousel({
+        loop: true
+        , margin: 10
+        , nav: false
+        , autoplay: true
+        , items: 1
+        , animateIn: "fadeIn"
+        , animateOut: "fadeOut"
+    });
     /* *** Gallery *** */
     (function () {
         $(document).on("click", ".click-to-expand", function () {
